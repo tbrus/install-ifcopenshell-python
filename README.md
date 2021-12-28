@@ -4,7 +4,7 @@
 
 # install-ifcopenshell-python
 
-This is package is a "part" of another repo: 
+This package is a "part" of another repo: 
 [pyifc](https://github.com/tbrus/pyifc/).
  
 [ifcopenshell on github](https://github.com/IfcOpenShell/IfcOpenShell)  
@@ -30,6 +30,29 @@ pip install install-ifcopenshell-python
 ```
 
 ## Usage
+
+Ifcopenshell is downloaded via hard coded URL (v0.6.0).
+
+No arguments are needed. System, architecture and python version are determined 
+automatically. However, if you would like to, you can determine your own 
+arguments.
+
+```bash
+<path to your project>python install_ifcopenshell_python -h
+usage: install_ifcopenshell_python [-h] [-s {linux,win,macos}] [-a {32,64}] [-v {37,38,39}]
+
+Download ifcopenshell based on platform system, platform architecture and running python version.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s {linux,win,macos}, --system {linux,win,macos}
+                        Platform system.
+  -a {32,64}, --architecture {32,64}
+                        Platform architecture.
+  -v {37,38,39}, --python-version {37,38,39}
+                        Running python version; string of major and minor version, e.g. '39'. pyifc supports python >=
+                        3.7.
+```
 
 ## References
 
