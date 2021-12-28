@@ -3,5 +3,4 @@ install_ifcopenshell_python._version
 ------------------------------------
 """
 
-version = "0.1.0"
-
+version = "0.0.0"
