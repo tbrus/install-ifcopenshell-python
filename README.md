@@ -1,4 +1,8 @@
-# Install ifcopenshell-python
+<p align="center">
+  <img src="https://github.com/tbrus/install-ifcopenshell-python/blob/master/logo.png?raw=true"/>
+</p>
+
+# install-ifcopenshell-python
 
 This is package is a "part" of another repo: 
 [pyifc](https://github.com/tbrus/pyifc/).
@@ -26,3 +30,9 @@ pip install install-ifcopenshell-python
 ```
 
 ## Usage
+
+## References
+
+[1] [Logo](https://github.com/tbrus/install-ifcopenshell-python/blob/master/logo.png) 
+is crated based on logo of [pyifc](https://github.com/tbrus/pyifc/) 
+and logo of [ifcopenshell](http://ifcopenshell.org/python).
