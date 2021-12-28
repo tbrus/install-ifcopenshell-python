@@ -17,7 +17,7 @@ error while installing **pyifc**:
 ModuleNotFoundError: No module named 'ifcopenshell'
 ```
 
-To adress this issue you can use 
+To address this issue you can use 
 [install-ifcopenshell-python](https://github.com/tbrus/install-ifcopenshell-python).
 
 ## Installation
@@ -34,11 +34,23 @@ pip install install-ifcopenshell-python
 Ifcopenshell is downloaded via hard coded URL (v0.6.0).
 
 No arguments are needed. System, architecture and python version are determined 
-automatically. However, if you would like to, you can determine your own 
-arguments.
+automatically. You can simply run:
 
 ```bash
-<path to your project>python install_ifcopenshell_python -h
+python -m install_ifcopenshell_python
+```
+Notice that here underscores are used, not hyphens.
+
+However, if you would like to, you can determine your own arguments. You can 
+run:
+
+```bash
+python -m install_ifcopenshell_python -h
+```
+
+To produce output:
+
+```bash
 usage: install_ifcopenshell_python [-h] [-s {linux,win,macos}] [-a {32,64}] [-v {37,38,39}]
 
 Download ifcopenshell based on platform system, platform architecture and running python version.
@@ -57,5 +69,5 @@ optional arguments:
 ## References
 
 [1] [Logo](https://github.com/tbrus/install-ifcopenshell-python/blob/master/logo.png) 
-is crated based on logo of [pyifc](https://github.com/tbrus/pyifc/) 
+is created based on logo of [pyifc](https://github.com/tbrus/pyifc/) 
 and logo of [ifcopenshell](http://ifcopenshell.org/python).

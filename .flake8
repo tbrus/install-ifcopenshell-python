@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 79
+max-doc-length = 79
+
+#Added due to compatibility with black.
+extend-ignore = E203
