@@ -4,6 +4,13 @@
 
 # install-ifcopenshell-python
 
+![PyPI - License](https://img.shields.io/pypi/l/install-ifcopenshell-python)
+![PyPI](https://img.shields.io/pypi/v/install-ifcopenshell-python)
+
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![Code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+
 This package is a "part" of another repo: 
 [pyifc](https://github.com/tbrus/pyifc/).
  
@@ -19,6 +26,12 @@ ModuleNotFoundError: No module named 'ifcopenshell'
 
 To address this issue you can use 
 [install-ifcopenshell-python](https://github.com/tbrus/install-ifcopenshell-python).
+
+## Table of Contents
+
+[Installation](https://github.com/tbrus/install-ifcopenshell-python#installation) |
+[Usage](https://github.com/tbrus/install-ifcopenshell-python#usage) |
+[References](https://github.com/tbrus/install-ifcopenshell-python#license)
 
 ## Installation
 
